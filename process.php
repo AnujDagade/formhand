@@ -7,6 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    $_POST["fname"]
+    <?php echo "Welcome ", $_POST["fname"], " ",$_POST["lname"]; ?> <br><br>
+    <strong>Addition is: </strong> <?php $ADD = $_POST["no1"]+$_POST["no2"]; echo $ADD; ?> <br><br>
+    <strong>Multiplication is: </strong> <?php echo $_POST["no1"]*$_POST["no2"]; ?>
 </body>
 </html>
